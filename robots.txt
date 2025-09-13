@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cebik/books/*.pdf$
+Disallow: /cebik/magazines/*.pdf$
+Sitemap: https://antenna2.github.io/sitemap.xml
