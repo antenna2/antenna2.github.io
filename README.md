@@ -12,4 +12,4 @@ Example, /cebik is a sub repo that is excluded from this repo in .gitignore.
 
 ## Sitemap.xml Generator
 
-Sitemap.xml generator script: [sitemap.sh](https://github.com/antenna2/antenna2.github.io/sitemap.sh).
+Sitemap.xml generator script: [sitemap.sh](https://github.com/antenna2/antenna2.github.io/blob/main/sitemap.sh).
