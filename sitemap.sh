@@ -29,7 +29,7 @@ find . -name '*.html' | while read -r file; do
     # Write URL entry
     echo "  <url>" >> "$sitemap_file"
     echo "    <loc>$domain$relative_path</loc>" >> "$sitemap_file"
-    echo "    <lastmod>$modification_date</lastmod>" >> "$sitemap_file"
+    # echo "    <lastmod>$modification_date</lastmod>" >> "$sitemap_file" # Cant use this with github pages - times wont match the page served
     echo "  </url>" >> "$sitemap_file"
 done
 
